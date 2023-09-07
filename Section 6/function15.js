@@ -1,21 +1,21 @@
-var joinButton = document.querySelector(".join-button");
+const joinButton = document.querySelector(".join-button");
 joinButton.addEventListener("click", goToSecondState);
 
 // [1] Add code to "Pay Now" Button that goes to the THIRD state
-var confirmButton = document.querySelector(".confirm-button");
+const confirmButton = document.querySelector(".confirm-button");
 confirmButton.addEventListener("click", goToThirdState);
 
 // [2] Add code to "Cancel" Button that goes to FIRST state
 
-var cancelButton = document.querySelector(".cancel-button");
+const cancelButton = document.querySelector(".cancel-button");
 confirmButton.addEventListener("click", goToFirstState);
 
 // Code below here, read-only
-var left = document.querySelector(".left");
-var right = document.querySelector(".right");
-var panelsOne = document.querySelector(".panels-stage-1");
-var panelsTwo = document.querySelector(".panels-stage-2");
-var panelsThree = document.querySelector(".panels-stage-3");
+const left = document.querySelector(".left");
+const right = document.querySelector(".right");
+const panelsOne = document.querySelector(".panels-stage-1");
+const panelsTwo = document.querySelector(".panels-stage-2");
+const panelsThree = document.querySelector(".panels-stage-3");
 
 function goToFirstState() {
   left.style.display = "block";
