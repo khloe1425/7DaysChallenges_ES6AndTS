@@ -1,0 +1,69 @@
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(360deg, #0d0642 0%, #040213 100%);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url("https://assets.codepen.io/6060109/2-flames.png") no-repeat
+    left bottom;
+  background-size: 100%;
+}
+
+.top-bar,
+.feed,
+.controls {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.top-bar {
+  width: 300px;
+  justify-content: space-between;
+}
+
+.feed {
+  justify-content: space-between;
+  align-items: center;
+  top: 10%;
+}
+
+.feed img {
+  animation: fadeInDown 0.5s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.feed img:first-child,
+.feed img:last-child {
+  opacity: 0.5;
+}
+
+.controls {
+  width: 180px;
+  bottom: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 100%;
+  display: flex;
+}
+
+.ctrl-small {
+  padding: 10px;
+}
+
+.control img {
+  width: 20px;
+  height: 20px;
+}

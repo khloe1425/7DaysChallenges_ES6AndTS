@@ -1,0 +1,87 @@
+html {
+  background: linear-gradient(46.19deg, #000000 5.66%, #434343 94.35%);
+}
+
+body {
+  height: 100vh;
+  background: url("https://assets.codepen.io/6060109/versus-bg.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: space-between;
+  width: 100%;
+  font-family: Paladins;
+}
+
+.mayweather-container, .logan-container {
+  position: relative;
+}
+
+.mayweather-container {
+  height: 100%;
+  width: 50%;
+  background: bottom left / contain no-repeat url("https://assets.codepen.io/6060109/mayweather.png");
+}
+
+.logan-container {
+  height: 100%;
+  width: 50%;
+  background: bottom right / contain no-repeat url("https://assets.codepen.io/6060109/loganpaul.png");
+}
+
+.text-container {
+  background: url("https://assets.codepen.io/6060109/yellow-text-wrapper.png") no-repeat;
+  height: 15%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  bottom: 10%;
+  font-size: 20px;
+}
+
+/* [1] Create 2 new CLASSES and SELECTORS 
+
+one for floyd mayweather's text container, called ".text-container-1"
+*/
+.text-container-1{
+  margin-left: -70px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.text-container-1 h1{
+ padding-left: 50px;
+}
+/*
+one for logan paul's text container, called ".text-container-2"
+*/
+.text-container-2{
+  margin-left: -70px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.text-container-2 h1{
+ padding-left: 50px;
+}
+/*
+then make the containers look good, like the screenshot below.
+
+1. adjust them to the left / right (NEGATIVE) MARGIN 
+2. you may also need to change the width and padding
+*/
+
+/* 
+[2] Create ADVANCED SELECTOR(s) for the h1(s) inside of text-container (one level deep)
+
+adjust padding etc until they look good. 
+*/
+
+.clock {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  color: white;
+}
