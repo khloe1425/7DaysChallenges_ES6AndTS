@@ -18,7 +18,7 @@ html {
   Add top and bottom margin 10px */
   h1 {
     font-size: 48px;
-    margin-top: -40px;
+  margin: 10px 0;
   }
   
   /* [2] 
@@ -27,7 +27,8 @@ html {
     font-size: 36px;
     font-weight: 400;
     opacity: 0.66;
-    margin-top: -30px;
+    margin: 0;
+      padding: 0;
   }
   
   .inner-container {
@@ -47,7 +48,10 @@ html {
     And percentage width
   */
   .inner-video {
-    width: 70%;
-    height: 40%;
+    
     box-shadow: 10px 10px 50px rgba(0, 255, 255, 0.35);
+      height:300px;
+    margin-top:50px;
+     width:85%;
+      
   }
