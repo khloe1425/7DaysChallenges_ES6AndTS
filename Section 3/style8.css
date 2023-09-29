@@ -1,9 +1,7 @@
 /* [3] Add font-family: Paladins to all text */
-h1 {
-  font-family: Paladins;
-}
 html {
   background: linear-gradient(46.19deg, #000000 5.66%, #434343 94.35%);
+  font-family: Paladins;
 }
 
 body {
